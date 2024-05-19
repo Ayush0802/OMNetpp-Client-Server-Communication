@@ -1,7 +1,7 @@
-# CSL3080 Assignment-3
+# P2P Networkings
 
 ## Objective
-The objective of this assignment is to Utilize OMNeT++ Discrete Event Simulator to simulate remote program execution, where each task is divided into x subtasks, each with ID i, which is randomly generated. Each subtask with ID i is sent to the client with ID i%N, where N is the total number of clients in the network. For this assignment, focus on executing a simple task, like finding the maximum element in an array. Given an array of k elements, the client divides it into approximately x equal parts, where k/x ≥ 2.
+The objective is to Utilize OMNeT++ Discrete Event Simulator to simulate remote program execution, where each task is divided into x subtasks, each with ID i, which is randomly generated. Each subtask with ID i is sent to the client with ID i%N, where N is the total number of clients in the network. For this assignment, focus on executing a simple task, like finding the maximum element in an array. Given an array of k elements, the client divides it into approximately x equal parts, where k/x ≥ 2.
 
 ## Network (p2p)
 - **Methodology:** We used the CHORD protocol to setup our connection. If simple ring shaped topology is used then each client will take O(n) in worst case to send a message to another client. But using CHORD protocol it is reduced to log(n). CHORD defines the connection of each client by a simple formula that is [n+2^(i-1)] % m. It also defines the max connections that a client will make that is p = ceil(log(m)). Here m = total clients, n = client id, i = [1,p]. This topology is very efficient and can handle millions of node.
