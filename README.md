@@ -68,3 +68,6 @@ As input we give number of servers and number of clients.
 ## Message Protocol 
 1. Gossip message = <self.timestamp> : <self.ClientID> : <self.Score#>
 
+## Output Format
+Output of each client and server is shown on the console as well as separate output files are generated for each client in client_outputs and for each server in server_outputs.
+
