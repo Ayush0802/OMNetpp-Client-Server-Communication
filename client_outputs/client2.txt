@@ -1,0 +1,164 @@
+for client : 2, array is : 78 11 5 65 8 2 65 84 0 77 57 48 59 26 41 29 9 11 
+
+for client : 2 rounds left : 2
+server_ind : 5 3 1 0 4 2 
+subarray_rand_ind : 21 4 2 37 25 20 
+client send : 78 11 5 21 
+client send : 78 11 5 21 
+client send : 78 11 5 21 
+client send : 78 11 5 21 
+client send : 65 8 2 4 
+client send : 65 8 2 4 
+client send : 65 8 2 4 
+client send : 65 8 2 4 
+client send : 65 84 0 2 
+client send : 65 84 0 2 
+client send : 65 84 0 2 
+client send : 65 84 0 2 
+client send : 77 57 48 37 
+client send : 77 57 48 37 
+client send : 77 57 48 37 
+client send : 77 57 48 37 
+client send : 59 26 41 25 
+client send : 59 26 41 25 
+client send : 59 26 41 25 
+client send : 59 26 41 25 
+client send : 29 9 11 20 
+client send : 29 9 11 20 
+client send : 29 9 11 20 
+client send : 29 9 11 20 
+client 2, subarray rcv : 5 21
+client 2, subarray rcv : 78 21
+client 2, subarray rcv : 5 21
+client 2, subarray rcv : 78 21
+client 2, subarray rcv : 65 4
+client 2, subarray rcv : 65 4
+client 2, subarray rcv : 65 4
+client 2, subarray rcv : 2 4
+client 2, subarray rcv : 84 2
+client 2, subarray rcv : 84 2
+client 2, subarray rcv : 84 2
+client 2, subarray rcv : 84 2
+client 2, subarray rcv : 48 37
+client 2, subarray rcv : 77 37
+client 2, subarray rcv : 48 37
+client 2, subarray rcv : 77 37
+client 2, subarray rcv : 26 25
+client 2, subarray rcv : 59 25
+client 2, subarray rcv : 26 25
+client 2, subarray rcv : 59 25
+client 2, subarray rcv : 29 20
+client 2, subarray rcv : 29 20
+client 2, subarray rcv : 29 20
+client 2, subarray rcv : 9 20
+client 2 : all msg recvd
+Final Answer : Max Element of array : 84
+res task : 
+78-3 78-0 
+65-5 65-3 65-1 
+84-5 84-3 84-1 84-0 
+77-3 77-0 
+59-3 59-0 
+29-5 29-3 29-1 
+score updated by : 4 3 0 6 0 3 
+
+client : 2
+gsp rcv : <'22:27:23':1:[0,4,5,0,4,4]>
+updating total score for client : 4 7 5 6 4 7 
+
+prpg send : 1 
+client : 2
+gsp rcv : <'22:27:28':3:[4,0,0,4,4,5]>
+updating total score for client : 8 7 5 10 8 12 
+
+prpg send : 0 
+client : 2
+gsp rcv : <'22:27:20':0:[0,0,5,2,5,6]>
+updating total score for client : 8 7 10 12 13 18 
+final avg score : 2 1 2 3 3 4 
+priority : 5 4 3 2 0 1 
+
+for client : 2, array is : 24 50 41 8 27 91 33 38 72 45 58 21 98 41 92 52 56 10 
+
+for client : 2 rounds left : 1
+subarray_rand_ind : 11 17 4 48 46 5 
+client send : 24 50 41 11 
+client send : 24 50 41 11 
+client send : 24 50 41 11 
+client send : 24 50 41 11 
+client send : 8 27 91 17 
+client send : 8 27 91 17 
+client send : 8 27 91 17 
+client send : 8 27 91 17 
+client send : 33 38 72 4 
+client send : 33 38 72 4 
+client send : 33 38 72 4 
+client send : 33 38 72 4 
+client send : 45 58 21 48 
+client send : 45 58 21 48 
+client send : 45 58 21 48 
+client send : 45 58 21 48 
+client send : 98 41 92 46 
+client send : 98 41 92 46 
+client send : 98 41 92 46 
+client send : 98 41 92 46 
+client send : 52 56 10 5 
+client send : 52 56 10 5 
+client send : 52 56 10 5 
+client send : 52 56 10 5 
+prpg send : 1 
+client 2, subarray rcv : 50 11
+client 2, subarray rcv : 50 11
+client 2, subarray rcv : 24 11
+client 2, subarray rcv : 50 11
+client 2, subarray rcv : 8 17
+client 2, subarray rcv : 91 17
+client 2, subarray rcv : 91 17
+client 2, subarray rcv : 91 17
+client 2, subarray rcv : 72 4
+client 2, subarray rcv : 33 4
+client 2, subarray rcv : 72 4
+client 2, subarray rcv : 72 4
+client 2, subarray rcv : 58 48
+client 2, subarray rcv : 21 48
+client 2, subarray rcv : 58 48
+client 2, subarray rcv : 58 48
+client 2, subarray rcv : 98 46
+client 2, subarray rcv : 98 46
+client 2, subarray rcv : 98 46
+client 2, subarray rcv : 41 46
+client 2, subarray rcv : 10 5
+client 2, subarray rcv : 56 5
+client 2, subarray rcv : 56 5
+client 2, subarray rcv : 56 5
+client 2 : all msg recvd
+Final Answer : Max Element of array : 98
+res task : 
+50-5 50-4 50-2 
+91-4 91-3 91-2 
+72-5 72-3 72-2 
+58-5 58-3 58-2 
+98-5 98-4 98-3 
+56-4 56-3 56-2 
+score updated by : 0 0 5 5 4 4 
+
+client : 2
+gsp rcv : <'22:27:48':1:[0,0,5,4,5,4]>
+updating total score for client : 0 0 10 9 9 8 
+
+prpg send : 1 
+client : 2
+gsp rcv : <'22:27:54':3:[0,0,4,5,6,3]>
+updating total score for client : 0 0 14 14 15 11 
+
+prpg send : 0 
+client : 2
+gsp rcv : <'22:27:57':0:[0,0,5,4,6,3]>
+updating total score for client : 0 0 19 18 21 14 
+final avg score : 0 0 4 4 5 3 
+priority : 4 3 2 5 1 0 
+
+
+All rounds completed for client : 2
+
+prpg send : 1 

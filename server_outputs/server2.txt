@@ -1,0 +1,72 @@
+server rcv 8 15 42 39
+server send , is malicious : 0, subarray : 42 39
+server rcv 51 7 29 2
+server send , is malicious : 1, subarray : 7 2
+server rcv 66 55 8 3
+server send , is malicious : 0, subarray : 66 3
+server rcv 30 53 72 15
+server send , is malicious : 0, subarray : 72 15
+server rcv 85 9 84 36
+server send , is malicious : 0, subarray : 85 36
+server rcv 31 50 50 23
+server send , is malicious : 0, subarray : 50 23
+server rcv 70 85 47 25
+server send , is malicious : 0, subarray : 85 25
+server rcv 93 40 38 1
+server send , is malicious : 0, subarray : 93 1
+server rcv 35 84 61 32
+server send , is malicious : 0, subarray : 84 32
+server rcv 48 46 46 11
+server send , is malicious : 0, subarray : 48 11
+server rcv 28 97 88 26
+server send , is malicious : 1, subarray : 28 26
+server rcv 44 26 45 36
+server send , is malicious : 0, subarray : 45 36
+server rcv 24 50 41 11
+server send , is malicious : 0, subarray : 50 11
+server rcv 8 27 91 17
+server send , is malicious : 0, subarray : 91 17
+server rcv 33 38 72 4
+server send , is malicious : 0, subarray : 72 4
+server rcv 45 58 21 48
+server send , is malicious : 0, subarray : 58 48
+server rcv 98 41 92 46
+server send , is malicious : 1, subarray : 41 46
+server rcv 52 56 10 5
+server send , is malicious : 0, subarray : 56 5
+server rcv 3 80 66 48
+server send , is malicious : 0, subarray : 80 48
+server rcv 39 31 81 43
+server send , is malicious : 0, subarray : 81 43
+server rcv 93 23 46 30
+server send , is malicious : 1, subarray : 23 30
+server rcv 59 60 57 11
+server send , is malicious : 0, subarray : 60 11
+server rcv 36 68 78 9
+server send , is malicious : 0, subarray : 78 9
+server rcv 54 64 82 37
+server send , is malicious : 0, subarray : 82 37
+server rcv 98 37 6 50
+server send , is malicious : 1, subarray : 6 50
+server rcv 82 22 33 1
+server send , is malicious : 0, subarray : 82 1
+server rcv 92 42 95 29
+server send , is malicious : 0, subarray : 95 29
+server rcv 83 40 73 2
+server send , is malicious : 1, subarray : 40 2
+server rcv 40 36 90 15
+server send , is malicious : 0, subarray : 90 15
+server rcv 5 17 19 13
+server send , is malicious : 0, subarray : 19 13
+server rcv 6 69 46 45
+server send , is malicious : 0, subarray : 69 45
+server rcv 66 57 39 47
+server send , is malicious : 0, subarray : 66 47
+server rcv 44 21 9 37
+server send , is malicious : 0, subarray : 44 37
+server rcv 36 70 39 22
+server send , is malicious : 1, subarray : 36 22
+server rcv 46 18 4 29
+server send , is malicious : 0, subarray : 46 29
+server rcv 69 78 91 11
+server send , is malicious : 0, subarray : 91 11
