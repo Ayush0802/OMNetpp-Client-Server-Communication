@@ -1,0 +1,56 @@
+
+for client : 0
+71 33 43 69 99 90 51 80 38 87 19 21 96 60 92 72 16 89 51 98 75 62 43 41 46 74 1 97 42 8 77 72 31 37 96 95 
+connections : (1 0) (2 1) (4 2) 
+subarray send: 71 33 43 47 5 0 -1 
+subarray send: 69 99 90 58 4 0 -1 
+subarray send: 51 80 38 20 2 0 -1 
+subarray send: 87 19 21 5 5 0 -1 
+subarray send: 96 60 92 1 1 0 -1 
+subarray send: 72 16 89 34 4 0 -1 
+subarray send: 51 98 75 32 2 0 -1 
+subarray send: 62 43 41 46 4 0 -1 
+subarray send: 46 74 1 39 3 0 -1 
+subarray send: 97 42 8 61 1 0 -1 
+subarray send: 77 72 31 73 1 0 -1 
+subarray send: 37 96 95 70 4 0 -1 
+subarr rcv and forwarded
+subarr rcv and forwarded
+max arr send: 96 90 2 0 -2 
+max arr send: 99 72 2 0 -2 
+subarr rcv and forwarded
+max arr send: 62 24 4 0 -2 
+max arr send: 65 0 4 0 -2 
+subarr rcv and forwarded
+subarr rcv and forwarded
+max arr send: 49 24 5 0 -2 
+max arr send: 75 48 5 0 -2 
+result arr rcv : 99 58 0 4 -2 
+result arr rcv : 80 20 0 2 -2 
+result arr rcv : 89 34 0 4 -2 
+result arr rcv : 98 32 0 2 -2 
+result arr rcv : 62 46 0 4 -2 
+result arr rcv : 96 70 0 4 -2 
+max arr rcv and forwarded
+max arr send: 68 84 1 0 -2 
+max arr send: 20 78 1 0 -2 
+max arr send: 44 96 1 0 -2 
+max arr rcv and forwarded
+max arr send: 70 48 1 0 -2 
+max arr send: 97 18 3 0 -2 
+max arr send: 65 72 3 0 -2 
+max arr send: 78 36 3 0 -2 
+result arr rcv : 71 47 0 5 -2 
+result arr rcv : 87 5 0 5 -2 
+result arr rcv : 96 1 0 1 -2 
+result arr rcv : 97 61 0 1 -2 
+result arr rcv : 77 73 0 1 -2 
+max arr rcv and forwarded
+result arr rcv : 74 39 0 3 -2 
+all subarray rcvd by 0 , final ans : 99
+
+gsp rcv : 1714484984 2 99 -3 
+gsp rcv : 1714484986 4 99 -3 
+gsp rcv : 1714484987 5 89 -3 
+gsp rcv : 1714484983 1 99 -3 
+gsp rcv : 1714484985 3 98 -3 
